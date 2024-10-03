@@ -10,12 +10,6 @@ interface PricingProps {
 const PricingComponent: React.FC<PricingProps> = ({
   page,
 }: PricingProps): JSX.Element => {
-  const PRODUCT = {
-    slug: "product-analytics",
-    lowercase: "product analytics",
-    capitalized: "Product Analytics",
-    freeTier: "10,000 ",
-  };
   const FAQs = [
     {
       question: "Page là gì?",
